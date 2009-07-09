@@ -42,7 +42,7 @@ Style: title3,Times New Roman,80,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:02.20,logo,,0000,0000,0000,,{\i1}[HATE-SUBS]{\i0}\NПеревод и тайминг: d_blacky\NRAW: MiklerGM\NОформление: LexsZero
+Dialogue: 0,0:00:00.00,0:00:02.20,logo,,0000,0000,0000,,{\i1}[HATE-SUBS]{\i0}\NПеревод и тайминг: Беаториче-сама\NRAW: Мария-чан\NОформление: Батора-кун\Nううう〜
 Dialogue: 0,0:00:10.24,0:00:12.84,title1,,0000,0000,0000,,Umineko No {\1c&H0000FF&}Na{\1c&HFFFFFF&}ku Koro Ni
 Dialogue: 0,0:00:10.24,0:00:12.84,title2,,0000,0000,0000,,Когда {\1c&H0000FF&}пла{\1c&HFFFFFF&}чут чайки
 Dialogue: 0,0:01:44.88,0:01:48.60,Default,,0000,0000,0000,,И, насколько много мне осталось?
