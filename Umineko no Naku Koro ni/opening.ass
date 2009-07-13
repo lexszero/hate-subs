@@ -17,8 +17,8 @@ Video File: ?dummy:23.976000:40000:1280:720:47:163:254:c
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: karaoke_romaji-furigana,Arial,17.5,&H00FFCB76,&H00FFFFFF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1,1,2,10,10,10,1
-Style: karaoke_kanji-furigana,Arial,18.5,&H00FFCB76,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,8,10,10,10,1
+Style: karaoke_romaji-furigana,Arial,17,&H00FFCB76,&H00FFFFFF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: karaoke_kanji-furigana,Arial,18,&H00FFCB76,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,8,10,10,10,1
 Style: title1-furigana,Segoe Script Regular,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,10,0,1,1,1,2,10,10,119,1
 Style: logo-furigana,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,1,10,10,10,1
 Style: logo,Arial,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,1
@@ -30,8 +30,8 @@ Style: karaoke_romaji,Arial,35,&H00FFCB76,&H00FFFFFF,&H00000000,&H00000000,0,-1,
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,karaoke_romaji,,0000,0000,0000,template line,{\r\k$kdur\t($start,$mid,\fscy120)\t($mid,$end,\fscy100)}
 Dialogue: 0,0:00:00.00,0:00:02.00,logo,,0000,0000,0000,,{\i1}[HATE-SUBS]{\i0}\NПеревод и тайминг: Беаториче-сама\NRAW: Мария-чан\NОформление: Батора-кун\N・・・うー
-Dialogue: 0,0:00:10.16,0:00:13.02,title1,,0000,0000,0000,,{\pos(640,532)}Umineko No {\1c&H0000FF&}Na{\1c&HFFFFFF&}ku Koro Ni\N
-Dialogue: 0,0:00:10.16,0:00:13.02,title1,,0000,0000,0000,,{\pos(640,188)}Когда {\1c&H0000FF&}пла{\1c&HFFFFFF&}чут чайки
+Dialogue: 0,0:00:10.16,0:00:13.02,title1,,0000,0000,0000,,{\pos(640,542)}Umineko No {\1c&H0000FF&}Na{\1c&HFFFFFF&}ku Koro Ni\N
+Dialogue: 0,0:00:10.16,0:00:13.02,title1,,0000,0000,0000,,{\pos(640,198)}Когда {\1c&H0000FF&}пла{\1c&HFFFFFF&}чут чайки
 Comment: 0,0:00:14.52,0:00:17.00,karaoke_romaji,,0000,0000,0000,karaoke,{\k85}Uminnari {\k21}no {\k79}shirabe {\k63}ni
 Dialogue: 0,0:00:14.52,0:00:17.00,karaoke_kanji,,0000,0000,0000,,{\k85}海鳴り{\k21}の{\k79}調べ{\k63}に
 Comment: 0,0:00:17.00,0:00:20.50,karaoke_romaji,,0000,0000,0000,karaoke,{\k26}Kono {\k41}kumo {\k21}wa {\k68}sora {\k32}he {\k162}tsudou
