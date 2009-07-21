@@ -12,7 +12,6 @@ Video Zoom: 6
 Video Position: 0
 Last Style Storage: Default
 Collisions: Normal
-Audio File: ../../video/audiodump.wav
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
