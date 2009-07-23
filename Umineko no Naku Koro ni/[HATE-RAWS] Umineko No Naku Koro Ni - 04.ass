@@ -11,6 +11,7 @@ Video Aspect Ratio: 0
 Video Zoom: 6
 Video Position: 0
 Last Style Storage: Default
+Audio File: ../../video/audiodump.wav
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -114,7 +115,8 @@ Dialogue: 0,0:06:38.72,0:06:40.39,Default,,0000,0000,0000,,Я больше не 
 Dialogue: 0,0:06:40.77,0:06:42.71,Default,,0000,0000,0000,,В твоей рулетке выпало 'зеро'!
 Dialogue: 0,0:06:42.92,0:06:45.12,Default,,0000,0000,0000,,На этом дьявольская рулетка оканчивается!
 Dialogue: 0,0:06:45.50,0:06:47.08,Default,,0000,0000,0000,,Отправляйся в ад!
-Dialogue: 0,0:06:47.24,0:06:51.51,Default,,0000,0000,0000,,Следующей туда пойдешь, Ты, Беатрис!
+Dialogue: 0,0:06:47.24,0:06:49.42,Default,,0000,0000,0000,,Следующей туда пойдешь Ты,
+Dialogue: 0,0:06:49.63,0:06:51.16,Default,,0000,0000,0000,,Беатрис!
 Dialogue: 0,0:07:08.70,0:07:09.16,Default,,0000,0000,0000,,А?
 Dialogue: 0,0:07:09.90,0:07:10.74,Default,,0000,0000,0000,,Аа!
 Dialogue: 0,0:07:10.97,0:07:12.07,Default,,0000,0000,0000,,Канон-кун!
