@@ -10,7 +10,7 @@ ScaledBorderAndShadow: yes
 Audio File: ../../video/audiodump.wav
 Video Aspect Ratio: 0
 Video Zoom: 16
-Video Position: 17381
+Video Position: 20351
 Video File: ../../video/umineko_4.avi
 Last Style Storage: Default
 
@@ -217,4 +217,4 @@ Dialogue: 0,0:13:28.54,0:13:29.10,Default,,0000,0000,0000,,Понимаю...
 Dialogue: 0,0:13:30.86,0:13:31.53,Default,,0000,0000,0000,,Генжи-сан.
 Dialogue: 0,0:13:32.03,0:13:36.98,Default,,0000,0000,0000,,<уточнить фразу Баторы про Деда и Беатрис>
 Dialogue: 0,0:13:39.19,0:13:42.02,Default,,0000,0000,0000,,Такого я не слышал.
-Dialogue: 0,0:14:09.00,0:14:10.46,Default,,0000,0000,0000,,
+Dialogue: 0,0:19:43.52,0:19:46.97,Default,,0000,0000,0000,,
