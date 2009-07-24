@@ -12,7 +12,6 @@ Video Zoom: 6
 Video Position: 0
 Last Style Storage: Default
 Collisions: Normal
-Audio File: ../../video/audiodump.wav
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -72,6 +71,7 @@ Dialogue: 0,0:00:39.84,0:00:41.49,karaoke_italian,,0000,0000,0000,,{\k56}Sta {\k
 Dialogue: 0,0:00:43.22,0:00:44.88,karaoke_italian,,0000,0000,0000,,{\k46}Il {\k39}pe{\k30}cca{\k50}to
 Dialogue: 0,0:01:24.43,0:01:29.41,karaoke_italian,,0000,0000,0000,,{\k23}Tu {\k25}sei {\k39}sen{\k25}za {\k31}pie{\k23}ta, {\k14}ma {\k33}quanto {\k35}Sarà {\k25}pe{\k29}san{\k24}te {\k33}il {\k25}Mio {\k26}ca{\k55}sti{\k33}go?
 Dialogue: 0,0:01:33.52,0:01:35.52,karaoke_italian,,0000,0000,0000,,
+
 Dialogue: 0,0:00:14.00,0:00:16.85,karaoke_romaji,,0000,0000,0000,fx,{\r\K32\t(0,160,\fscy130)\t(160,320,\fscy100}U{\r\K31\t(320,475,\fscy130)\t(475,630,\fscy100}mi{\r\K31\t(630,785,\fscy130)\t(785,940,\fscy100}nna{\r\K26\t(940,1070,\fscy130)\t(1070,1200,\fscy100}ri {\r\K22\t(1200,1310,\fscy130)\t(1310,1420,\fscy100}no {\r\K43\t(1420,1635,\fscy130)\t(1635,1850,\fscy100}shi{\r\K21\t(1850,1955,\fscy130)\t(1955,2060,\fscy100}ra{\r\K27\t(2060,2195,\fscy130)\t(2195,2330,\fscy100}be {\r\K52\t(2330,2590,\fscy130)\t(2590,2850,\fscy100}ni
 Dialogue: 0,0:00:16.83,0:00:20.35,karaoke_romaji,,0000,0000,0000,fx,{\r\K17\t(0,85,\fscy130)\t(85,170,\fscy100}Ko{\r\K11\t(170,225,\fscy130)\t(225,280,\fscy100}no {\r\K23\t(280,395,\fscy130)\t(395,510,\fscy100}ku{\r\K27\t(510,645,\fscy130)\t(645,780,\fscy100}mo {\r\K25\t(780,905,\fscy130)\t(905,1030,\fscy100}wa {\r\K28\t(1030,1170,\fscy130)\t(1170,1310,\fscy100}so{\r\K34\t(1310,1480,\fscy130)\t(1480,1650,\fscy100}ra {\r\K26\t(1650,1780,\fscy130)\t(1780,1910,\fscy100}he {\r\K56\t(1910,2190,\fscy130)\t(2190,2470,\fscy100}tsu{\r\K106\t(2470,3000,\fscy130)\t(3000,3530,\fscy100}dou
 Dialogue: 0,0:00:20.36,0:00:26.65,karaoke_romaji,,0000,0000,0000,fx,{\r\K31\t(0,155,\fscy130)\t(155,310,\fscy100}A{\r\K17\t(310,395,\fscy130)\t(395,480,\fscy100}ra{\r\K32\t(480,640,\fscy130)\t(640,800,\fscy100}shi {\r\K85\t(800,1225,\fscy130)\t(1225,1650,\fscy100}wo {\r\K41\t(1650,1855,\fscy130)\t(1855,2060,\fscy100}yo{\r\K15\t(2060,2135,\fscy130)\t(2135,2210,\fscy100}bu {\r\K26\t(2210,2340,\fscy130)\t(2340,2470,\fscy100}ka{\r\K28\t(2470,2610,\fscy130)\t(2610,2750,\fscy100}ze {\r\K32\t(2750,2910,\fscy130)\t(2910,3070,\fscy100}wa {\r\K23\t(3070,3185,\fscy130)\t(3185,3300,\fscy100}ta{\r\K51\t(3300,3555,\fscy130)\t(3555,3810,\fscy100}ka{\r\K29\t(3810,3955,\fscy130)\t(3955,4100,\fscy100}ra{\r\K36\t(4100,4280,\fscy130)\t(4280,4460,\fscy100}ka {\r\K182\t(4460,5370,\fscy130)\t(5370,6280,\fscy100}ni
