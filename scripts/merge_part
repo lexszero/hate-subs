@@ -1,0 +1,29 @@
+#!/usr/bin/perl
+die "usage: merge_part <source> <destination> [time_shift]" unless ($#ARGV >= 1);
+$shift = parse_time($ARGV[2]);
+$time_regexp = '\d+?:\d+?:\d+?\.\d+?';
+while (<STDIN>) {
+	next unless /(^Dialogue: \d,)($time_regexp),($time_regexp)(.*)$/;
+	print "$1".shift_time($2, $shift).",".shift_time($3, $shift)."$4\n";
+}
+# We need to add only dialogue lines, not comments
+#cat "$src" | grep 'Dialogue' >> "$dst"
+#echo "Appended $src to $dst, now you need adjust timing"
+
+sub parse_time($) {
+	local $sign = 1;
+	$sign = -1 if @_[0] =~ /^-/;
+	return $sign*($3+$2*60+$1*60*60+$4) if @_[0] =~ /(\d+?):(\d+?):(\d+?)(\.\d+?)$/;
+	return $sign*$1 if @_[0] =~ /(\d*\.\d*)$/;
+	return -1;
+}
+sub unparse_time($) {
+	my $sec = @_[0], $str = ($sec<0)?"-":"";
+	$sec = abs($sec);
+	$str .= sprintf("%i:%0.2i:%0.2i.", $sec/3600, $sec%(60*60)/60, $sec%(60));
+	$sec = 0 unless $sec =~ s/^.*(\.)//;
+	return $str.$sec;
+}
+sub shift_time {
+	unparse_time(parse_time(@_[0])+@_[1]);
+}
