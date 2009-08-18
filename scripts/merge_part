@@ -1,21 +1,22 @@
 #!/usr/bin/perl
 die "usage: merge_part <source> <destination> [time_shift]" unless ($#ARGV >= 1);
 $shift = parse_time($ARGV[2]);
+print "shift = $shift\n";
 $time_regexp = '\d+?:\d+?:\d+?\.\d+?';
-while (<STDIN>) {
+open SRC, "<$ARGV[0]";
+open DST, ">>$ARGV[1]";
+while (<SRC>) {
 	next unless /(^Dialogue: \d,)($time_regexp),($time_regexp)(.*)$/;
-	print "$1".shift_time($2, $shift).",".shift_time($3, $shift)."$4\n";
+	print DST "$1".shift_time($2, $shift).",".shift_time($3, $shift)."$4\n";
+	#print "$2,$3 => ".shift_time($2, $shift).",".shift_time($3, $shift)."\n"
 }
-# We need to add only dialogue lines, not comments
-#cat "$src" | grep 'Dialogue' >> "$dst"
-#echo "Appended $src to $dst, now you need adjust timing"
 
 sub parse_time($) {
 	local $sign = 1;
 	$sign = -1 if @_[0] =~ /^-/;
 	return $sign*($3+$2*60+$1*60*60+$4) if @_[0] =~ /(\d+?):(\d+?):(\d+?)(\.\d+?)$/;
 	return $sign*$1 if @_[0] =~ /(\d*\.\d*)$/;
-	return -1;
+	return 0
 }
 sub unparse_time($) {
 	my $sec = @_[0], $str = ($sec<0)?"-":"";
