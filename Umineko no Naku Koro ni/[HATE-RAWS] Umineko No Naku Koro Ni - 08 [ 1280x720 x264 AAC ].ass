@@ -4,14 +4,15 @@
 Title: Default Aegisub file
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 640
-PlayResY: 480
+PlayResX: 1280
+PlayResY: 720
 ScaledBorderAndShadow: yes
 Audio File: ../../video/audiodump.wav
 Video Aspect Ratio: 0
 Video Zoom: 6
 Video Position: 0
 Last Style Storage: UNNKN
+Collisions: Normal
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
