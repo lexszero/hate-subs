@@ -1,4 +1,13 @@
 # инфа для присобачивания опенинги и эндинга
-# возможно потом напишу скрипт, который будет парсить этот файл
+# возможно потом напишу скрипт, который будет парсить этот файл и заменять оп/ед всем файлам сразу
 # формат: "имя файла" <сдвиг опенинга> <сдвиг эндинга>
+# оп: 0:00:10.16, eд: 0:22:16.11
+# для серий 2-6 сдвиг эндинга от фонаря (лень проверять)
+"[HATE-RAWS] Umineko No Naku Koro Ni - 01 [ 1280x720 x264 AAC ].ass" 0.0 0.0
+"[HATE-RAWS] Umineko No Naku Koro Ni - 02 [ 1280x720 x264 AAC ].ass" -0.1 0.0
+"[HATE-RAWS] Umineko No Naku Koro Ni - 03 [ 1280x720 x264 AAC ].ass" -0.1 0.0
+"[HATE-RAWS] Umineko No Naku Koro Ni - 04 [ 1280x720 x264 AAC ].ass" -0.1 0.0
+"[HATE-RAWS] Umineko No Naku Koro Ni - 05 [ 1280x720 x264 AAC ].ass" -0.2 0.0
+"[HATE-RAWS] Umineko No Naku Koro Ni - 06 [ 1280x720 x264 AAC ].ass" 0.0 0.0
+"[HATE-RAWS] Umineko No Naku Koro Ni - 07 [ 1280x720 x264 AAC ].ass" 0.0 0.0
 "[HATE-RAWS] Umineko No Naku Koro Ni - 08 [ 1280x720 x264 AAC ].ass" 0.1 -0.3
