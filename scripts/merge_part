@@ -1,14 +1,22 @@
 #!/usr/bin/perl
-die "usage: merge_part <source> <destination> [time_shift]" unless ($#ARGV >= 1);
+# скрипт прицепляет строки Dialogue из саба src в конец саба dest 
+# со сдвигом на time_shift (можно не указывать)
+# строки, у которых параметр Effect выставлен в _noshift_ не двигаются
+die "usage: merge_part <src> <dest> [time_shift]" unless ($#ARGV >= 1);
 $shift = parse_time($ARGV[2]);
 print "shift = $shift\n";
 $time_regexp = '\d+?:\d+?:\d+?\.\d+?';
 open SRC, "<$ARGV[0]";
 open DST, ">>$ARGV[1]";
 while (<SRC>) {
+	$str = $_;
 	next unless /(^Dialogue: \d,)($time_regexp),($time_regexp)(.*)$/;
-	print DST "$1".shift_time($2, $shift).",".shift_time($3, $shift)."$4\n";
-	#print "$2,$3 => ".shift_time($2, $shift).",".shift_time($3, $shift)."\n"
+	if ($4 =~ /_noshift_/) {
+		print DST $str;
+	}
+	else {
+		print DST "$1".shift_time($2, $shift).",".shift_time($3, $shift)."$4\n";
+	}
 }
 
 sub parse_time($) {
@@ -22,7 +30,7 @@ sub unparse_time($) {
 	my $sec = @_[0], $str = ($sec<0)?"-":"";
 	$sec = abs($sec);
 	$str .= sprintf("%i:%0.2i:%0.2i.", $sec/3600, $sec%(60*60)/60, $sec%(60));
-	$sec = 0 unless $sec =~ s/^.*(\.)//;
+	$sec = '00' unless $sec =~ s/^.*(\.)//;
 	return $str.$sec;
 }
 sub shift_time {
