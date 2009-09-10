@@ -9,9 +9,10 @@ PlayResY: 720
 ScaledBorderAndShadow: yes
 Last Style Storage: Umineko
 Video Aspect Ratio: 0
-Video Zoom: 6
-Video Position: 0
+Video Zoom: 8
+Video Position: 360
 Audio File: ../audiodump.wav
+Video File: ../../download/torrents/[Leopard-Raws] Umineko no Naku Koro ni - 11 RAW (D-tvk x264 AAC 704x396).mp4
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -41,7 +42,7 @@ Dialogue: 0,0:00:01.49,0:00:02.70,main_beatoriche,,0000,0000,0000,,Шаннон,
 Dialogue: 0,0:00:02.77,0:00:05.46,main_beatoriche,,0000,0000,0000,,рулетка указала на тебя и Джорджа.
 Dialogue: 0,0:00:05.58,0:00:07.89,main_beatoriche,,0000,0000,0000,,Наступил твой последний день,
 Dialogue: 0,0:00:07.97,0:00:09.58,main_beatoriche,,0000,0000,0000,,скажи мне спасибо.
-Dialogue: 0,0:00:00.00,0:00:00.00,title2,,0000,0000,0000,,Эпизод II-VI\N
+Dialogue: 0,0:00:10.03,0:00:15.03,title2,,0000,0000,0000,,{\fad(500,0)}Эпизод II-VI\NМат на последней горизонтали
 Dialogue: 0,0:02:02.32,0:02:04.62,main_beatoriche,,0000,0000,0000,,О, Шаннон,
 Dialogue: 0,0:02:04.69,0:02:08.92,main_beatoriche,,0000,0000,0000,,я вижу, что ты о чем-то сожалеешь.
 Dialogue: 0,0:02:09.09,0:02:13.07,main_beatoriche,,0000,0000,0000,,Джордж показал тебе, как можно сделать женщину счастливой?
