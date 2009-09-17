@@ -8,11 +8,11 @@ PlayResX: 1280
 PlayResY: 720
 ScaledBorderAndShadow: yes
 Video Aspect Ratio: 0
-Video Zoom: 6
-Video Position: 0
+Video Zoom: 8
+Video Position: 2528
 Last Style Storage: Umineko
 Collisions: Normal
-Audio File: ../audiodump.wav
+Video File: ../../download/torrents/[Leopard-Raws] Umineko no Naku Koro ni - 12 RAW (D-tvk x264 AAC 704x396).mp4
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -21,7 +21,7 @@ Style: title1,Segoe Script Regular,80,&H00FFFFFF,&H000000FF,&H00000000,&H0000000
 Style: karaoke_kanji,Arial Unicode MS,40,&H000000E8,&H00000000,&H00FFFFFF,&H00000000,0,0,0,0,100,100,2,0,1,3,2,8,10,10,10,1
 Style: karaoke_romaji,Arial,40,&H000000E8,&H00000000,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,2,2,10,10,10,1
 Style: karaoke_italian,Georgia,38,&H00000000,&H0000CCFF,&H00FFFFFF,&H00000000,0,-1,0,0,100,100,0,0,1,3,2,2,10,10,50,1
-Style: title2,Times New Roman,80,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,1,200,10,119,1
+Style: title2,Times New Roman,80,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,1,340,10,119,1
 Style: comment,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,3,8,20,20,15,1
 Style: beato_red,Arial,46,&H000000E8,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,2,2,20,20,15,1
 Style: main,Arial,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,2,2,20,20,15,1
