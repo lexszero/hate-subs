@@ -30,7 +30,7 @@ Style: karaoke_italian,Georgia,38,&H00000000,&H0000CCFF,&H00FFFFFF,&H00000000,0,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,karaoke_romaji,,0000,0000,0000,template line,{\r\K$kdur\t($start,$mid,\fscy130)\t($mid,$end,\fscy100}
-Dialogue: 0,0:00:00.00,0:00:02.00,logo,,0000,0000,0000,,{\i1}[HATE-SUBS]{\i0}\NБеаториче-сама (перевод)\NМария-чан (тайминг, RAW)\NДжессика (тайминг, оформление)\NФурудерика-сама (корректура)\N・・・うー
+Dialogue: 0,0:00:00.00,0:00:02.00,logo,,0000,0000,0000,,[{\c&H00FF&}HATE{\r}-SUBS]\NБеаториче-сама (перевод)\NМария-чан (тайминг, RAW)\NДжессика (тайминг, оформление)\NФурудерика-сама (корректура)\N・・・うー
 Dialogue: 0,0:00:10.16,0:00:13.02,title1,,0000,0000,0000,,{\pos(640,542)}Umineko No {\1c&H0000FF&}Na{\1c&HFFFFFF&}ku Koro Ni\N
 Dialogue: 0,0:00:10.16,0:00:13.02,title1,,0000,0000,0000,,{\pos(640,198)}Когда {\1c&H0000FF&}пла{\1c&HFFFFFF&}чут чайки
 Comment: 0,0:00:14.00,0:00:16.83,karaoke_romaji,,0000,0000,0000,karaoke,{\k32}U{\k31}mi{\k31}nna{\k26}ri {\k22}no {\k43}shi{\k21}ra{\k27}be {\k52}ni
