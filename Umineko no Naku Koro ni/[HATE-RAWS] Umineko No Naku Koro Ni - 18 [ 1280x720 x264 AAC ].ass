@@ -9,7 +9,7 @@ PlayResY: 720
 ScaledBorderAndShadow: yes
 Video Aspect Ratio: 0
 Video Zoom: 8
-Video Position: 19525
+Video Position: 24305
 Last Style Storage: Default
 Collisions: Normal
 Audio File: ../audiodump.wav
@@ -26,6 +26,7 @@ Style: karaoke_italian,Georgia,38,&H00000000,&H0000CCFF,&H00FFFFFF,&H00000000,0,
 Style: title2,Times New Roman,80,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,1,240,10,119,1
 Style: comment,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,3,8,20,20,15,1
 Style: beato_red,Arial,46,&H000000E8,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,2,2,20,20,15,1
+Style: osd,Times,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -353,7 +354,9 @@ Dialogue: 0,0:16:35.40,0:16:42.15,main,,0000,0000,0000,,Мы, 18 человек,
 Dialogue: 0,0:16:44.46,0:16:46.73,main,,0000,0000,0000,,Батора-кун, подпишись здесь.
 Dialogue: 0,0:16:46.81,0:16:48.35,main,,0000,0000,0000,,А, хорошо..
 Dialogue: 0,0:16:49.97,0:16:50.84,main,,0000,0000,0000,,Что, что?
-Dialogue: 0,0:16:51.31,0:16:53.50,main,,0000,0000,0000,,Я признаю тебя ведьмой.
+Dialogue: 0,0:16:49.23,0:16:53.74,main,,0000,0000,0000,,Я признаю тебя ведьмой.
+Dialogue: 0,0:16:51.31,0:16:53.50,osd,,0000,0000,0000,,{\move(659,75,659,250,0,2160)\c&H899BCC&\3c&H000000&}Письменное обязательство
+Dialogue: 0,0:16:51.31,0:16:53.50,osd,,0000,0000,0000,,{\c&H899BCC&\3c&H000000&\fscx120\move(658,266,656,441,0,2160)}Признаём тебя ведьмой
 Dialogue: 0,0:16:54.03,0:16:54.41,main,,0000,0000,0000,,А?
 Dialogue: 0,0:16:55.63,0:16:57.09,main,,0000,0000,0000,,Здесь что-то не так.
 Dialogue: 0,0:16:57.25,0:16:58.67,main,,0000,0000,0000,,Эй, эй, быстрее.
