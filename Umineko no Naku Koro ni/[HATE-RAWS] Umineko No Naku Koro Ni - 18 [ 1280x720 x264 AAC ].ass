@@ -8,11 +8,12 @@ PlayResX: 1280
 PlayResY: 720
 ScaledBorderAndShadow: yes
 Video Aspect Ratio: 0
-Video Zoom: 6
-Video Position: 0
+Video Zoom: 8
+Video Position: 28002
 Last Style Storage: Default
 Collisions: Normal
 Audio File: ../audiodump.wav
+Video File: ../../../download/torrents/[Leopard-Raws] Umineko no Naku Koro ni - 18 RAW (tva x264 AAC 704x396).mp4
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -403,8 +404,8 @@ Dialogue: 0,0:19:03.96,0:19:08.71,main,,0000,0000,0000,,Как и обещало
 Dialogue: 0,0:19:11.47,0:19:14.06,main,,0000,0000,0000,,Ах, я люблю тебя, Бернкастель...
 Dialogue: 0,0:19:15.22,0:19:18.26,main,,0000,0000,0000,,Пытаясь выбраться из птичьей клетки Беаториче.
 Dialogue: 0,0:19:18.93,0:19:20.70,main,,0000,0000,0000,,Хи-хи-хи.
-Dialogue: 0,0:00:00.00,0:00:00.00,main,,0000,0000,0000,,12 лет спустя
-Dialogue: 0,0:00:00.00,0:00:00.00,main,,0000,0000,0000,,4 октября 1998 года
+Dialogue: 0,0:19:22.11,0:19:24.16,main,,0000,0000,0000,,{\fad(500,300)\an5\pos(640,360)}12 лет спустя
+Dialogue: 0,0:19:23.80,0:19:26.85,main,,0000,0000,0000,,{\fad(300,500)\an5\pos(640,360)}4 октября 1998 года
 Dialogue: 0,0:19:27.54,0:19:28.55,main,,0000,0000,0000,,Так ты пришла...
 Dialogue: 0,0:19:29.62,0:19:30.29,main,,0000,0000,0000,,Энжи.
 Dialogue: 0,0:19:30.78,0:19:31.82,main,,0000,0000,0000,,Чего тебе?
