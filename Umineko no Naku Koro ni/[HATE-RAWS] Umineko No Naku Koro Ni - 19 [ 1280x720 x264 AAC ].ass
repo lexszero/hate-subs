@@ -8,11 +8,11 @@ PlayResX: 1280
 PlayResY: 720
 ScaledBorderAndShadow: yes
 Video Aspect Ratio: 0
-Video Zoom: 6
-Video Position: 0
+Video Zoom: 8
+Video Position: 9840
 Collisions: Normal
-Audio File: ?video
-Video File: [HATE-RAWS] Umineko No Naku Koro Ni - 19 [ 1280x720 x264 AAC ].mp4
+Audio File: audiodump.wav
+Video File: ../../../download/torrents/[Leopard-Raws] Umineko no Naku Koro ni - 19 RAW (tva x264 AAC 704x396).mkv
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -130,8 +130,8 @@ Dialogue: 0,0:06:28.98,0:06:30.30,main,,0000,0000,0000,,Что за…
 Dialogue: 0,0:06:30.70,0:06:33.97,main,,0000,0000,0000,,Чему тебя учили родители?
 Dialogue: 0,0:06:34.76,0:06:38.37,main,,0000,0000,0000,,Джордж по сравнению с тобой в этом возрасте был лучше.
 Dialogue: 0,0:06:39.38,0:06:40.44,main,,0000,0000,0000,,Джордж.
-Dialogue: 0,0:06:43.58,0:06:46.85,main,,0000,0000,0000,,С тех пор у меня началось строгое обучение, чтобы стать преемницей Главы.
-Dialogue: 0,0:06:46.82,0:06:48.91,main,,0000,0000,0000,,Школа святого Lucia{http://myspt.jp/pc/spots/detail/146}
+Dialogue: 0,0:06:42.30,0:06:46.85,main,,0000,0000,0000,,С тех пор у меня началось строгое обучение, чтобы стать преемницей Главы.
+Dialogue: 0,0:06:47.28,0:06:49.40,osd,,0000,0000,0000,,{\pos(653,265)\fs160\fad(200,0)}Школа святого Lucia{http://myspt.jp/pc/spots/detail/146}
 Dialogue: 0,0:06:50.30,0:06:58.62,main,,0000,0000,0000,,Однако тётя Ева была подавлена трагической гибелью наследника
 Dialogue: 0,0:06:50.30,0:06:58.62,comment,,0000,0000,0000,,Речь идёт о сыне Евы, Джордже.
 Dialogue: 0,0:06:58.78,0:07:02.51,main,,0000,0000,0000,,и едва ли выказывала сожаление ко мне.
