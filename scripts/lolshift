@@ -1,0 +1,29 @@
+#!/usr/bin/perl
+
+$diff = <STDIN>;
+$diff = -parse_time($diff);
+print "00:00:00.000\n";
+
+while (<STDIN>) {
+	print shift_time($_, $diff);
+	print "\n";
+}
+
+sub parse_time($) {
+	local $sign = 1;
+	$sign = -1 if @_[0] =~ /^-/;
+	return $sign*($3+$2*60+$1*60*60+($4/1000)) if @_[0] =~ /(\d+?):(\d+?):(\d+?)\.(\d+?)$/;
+	return $sign*$1 if @_[0] =~ /(\d*\.\d*)$/;
+	return 0
+}
+sub unparse_time($) {
+	my $sec = @_[0], $str = ($sec<0)?"-":"";
+	$sec = abs($sec);
+	$str .= sprintf("%0.2i:%0.2i:%0.2i.", $sec/3600, $sec%(60*60)/60, $sec%(60));
+	$sec = '000' unless $sec =~ s/^.*(\.)/0./;
+	$sec *= 1000;
+	return $str.sprintf("%0.3i", $sec);
+}
+sub shift_time {
+	unparse_time(parse_time(@_[0])+@_[1]);
+}
